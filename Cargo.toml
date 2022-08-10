@@ -1,0 +1,13 @@
+[package]
+name = "filemonitor"
+version = "0.5.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+walkdir = "2.3"
+rusqlite = {version = "0.28", features = ["bundled"]}
+clap = { version = "3.2", features = ["derive"] }
+chrono = "0.4"
+regex = "1.6"
